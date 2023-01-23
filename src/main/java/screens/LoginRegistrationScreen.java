@@ -8,8 +8,9 @@ public class LoginRegistrationScreen extends BaseScreen{
     public LoginRegistrationScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
+
     @FindBy(xpath = "//*[@resource-id = 'com.sheygam.contactapp:id/inputEmail']")
-    public MobileElement emailAuthentication;
+    MobileElement emailAuthentication;
 
     @FindBy(xpath = "//*[@resource-id = 'com.sheygam.contactapp:id/inputPassword']")
     MobileElement passwordAuthentication;

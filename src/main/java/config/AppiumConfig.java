@@ -33,6 +33,7 @@ public class AppiumConfig {
         capabilities.setCapability("appActivity", ".SplashActivity");
 
         capabilities.setCapability("automationName","Appium");
+        //???
         capabilities.setCapability("app","C:\\Tools\\APK\\contacts-android.apk");
 
         driver = new AppiumDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"),capabilities);

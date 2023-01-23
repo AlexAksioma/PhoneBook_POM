@@ -13,9 +13,9 @@ public class BaseScreen {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver),this);
     }
-    public String getTextMobileElement(MobileElement element){
+    /*public String getTextMobileElement(MobileElement element){
         return element.getText();
-    }
+    }*/
 
 
 }
